@@ -6,7 +6,7 @@
  */
 
 {
-    let studentName = "John";
+
 }
 
 /* TASK NR. 1 END */
@@ -21,7 +21,7 @@
  */
 
 {
-  let firstName = "John", lastName = "Doe", age = 29;
+
 }
 
 /* TASK NR. 2 END */
@@ -33,12 +33,12 @@
  */
 
 {
-    const age = 20;               // Number (all numbers are stored as 64 bit floating points in JavaScript, not integer like in many other programming languages)
-    const car = 'Mercedes'        // String
+    const age = 20;               //
+    const car = 'Mercedes'        //
     const user = {
         email: 'john@gmail.com',
         password: 'test123'
-    };                            //  Object type with two properties of String type defined inside
+    };                            //
 }
 
 /* TASK NR. 3 END */
@@ -51,8 +51,7 @@
  */
 
 {
-    let task4Function = (a, b) => a * b;
-    task4Function(1, 2);
+
 }
 
 /* TASK NR. 4 END */
@@ -67,10 +66,7 @@
  */
 
 {
-    let car = {
-        model: 'Fiat',
-        maxSpeed: 241
-    }
+
 }
 
 /* TASK NR. 5 END */
@@ -85,8 +81,7 @@
 
 {
     const text = 'This is a random text';
-    let result = text.length;
-    console.log(result);
+    let result;
 }
 
 /* TASK NR. 6 END */
@@ -101,8 +96,7 @@
 
 {
     const text = 'This is a random text';
-    let result = text.slice(3, 12); // Expected result: "s is a ra"
-    console.log(result);
+    let result;
 }
 
 /* TASK NR. 7 END */
@@ -117,8 +111,7 @@
 
 {
     const text = 'Hello World!';
-    let result = text.replace('World', 'All');
-    console.log(result);
+    let result;
 }
 
 /* TASK NR. 8 END */
@@ -134,8 +127,7 @@
 {
     const text1 = 'Hello';
     const text2 = 'World!';
-    let result = text1 + ' ' + text2; // Expected result: "Hello World!"
-    console.log(result);
+    let result;
 }
 
 /* TASK NR. 9 END */
@@ -150,8 +142,7 @@
 
 {
     const text = '    Hello World! ';
-    let result = text.trim();
-    console.log(result);
+    let result;
 }
 
 /* TASK NR. 10 END */
@@ -166,8 +157,7 @@
 
 {
     const text = 'My name is John';
-    let result = text.search('name');
-    console.log(result);
+    let result;
 }
 
 /* TASK NR. 11 END */
@@ -182,8 +172,7 @@
 
 {
     const text = 'My name is John';
-    let result = text.search('is') !== -1;
-    console.log(result);
+    let result;
 }
 
 /* TASK NR. 12 END */
@@ -199,10 +188,8 @@
 
 {
     const name = 'John Doe';
-    const prefix = "My name is";
-    let textES5 = prefix + ' ' + name;
-    let textES6 = `${prefix} ${name}`;
-    console.log(textES5, textES6);
+    let textES5;
+    let textES6;
 }
 
 /* TASK NR. 13 END */
@@ -216,7 +203,6 @@
 
 {
     // Answer:
-    // NaN - Not A Number. The value may be found under "Number" object, so.. We may say "NaN" is of type "Number" too, it should not be the wrong statement, I assume.
 }
 
 /* TASK NR. 14 END */
@@ -231,9 +217,7 @@
 
 {
     const myNumber = 5;
-    let resultString = myNumber.toString(10);
-    let resultInt = parseInt(resultString, 10);
-    console.log(resultString, typeof resultString, resultInt, typeof resultInt); // 5 as string, 5 as integer (converted back from a string)
+    let result;
 }
 
 /* TASK NR. 15 END */
@@ -248,12 +232,7 @@
 
 {
     const myNumber = 7.469458;
-    let resultUpFixedDecimals = parseFloat(myNumber.toFixed(2)); // 7.47. Aka. the regular way of rounding a number
-    let resultUpFixedLength = parseFloat(myNumber.toPrecision(3)); // Round to 7.47. Works for formatting purpose only, the value "3" works in cases of numbers greater than -10 and lower than 10.
-    let resultDown = parseFloat((Math.floor(myNumber * 100) / 100).toFixed(2)); // Round down to 7.46 as requested
-    console.log(resultUpFixedDecimals, typeof resultUpFixedDecimals, resultUpFixedLength, typeof resultUpFixedLength, resultDown, typeof resultDown);
-
-
+    let result;
 }
 
 /* TASK NR. 16 END */
@@ -269,8 +248,7 @@
  */
 
 {
-    let arrayOfTask17 = ['apple', 98, 'orange'];
-    console.log(arrayOfTask17);
+
 }
 
 /* TASK NR. 17 END */
@@ -291,8 +269,7 @@
         'John',
         'Doe'
     ];
-    let result = myArray.join(' ');
-    console.log(result);
+    let result;
 }
 
 /* TASK NR. 18 END */
@@ -307,8 +284,7 @@
 
 {
     const myArray = [1, 8, 9, 22, 4];
-    let result = myArray.splice(2, 1);
-    console.log(myArray, result);
+    let result;
 }
 
 /* TASK NR. 19 END */
@@ -323,8 +299,6 @@
 
 {
     const myArray = [1, 8, 9, 22, 4];
-    myArray.push(2);
-    console.log(myArray);
 }
 
 /* TASK NR. 20 END */
@@ -339,8 +313,6 @@
 
 {
     const myArray = [1, 8, 9, 22, 4];
-    myArray.unshift(10);
-    console.log(myArray);
 }
 
 /* TASK NR. 21 END */
@@ -355,8 +327,6 @@
 
 {
     const myArray = [1, 8, 9, 22, 4];
-    myArray[3] = 19;
-    console.log(myArray);
 }
 
 /* TASK NR. 22 END */
@@ -372,8 +342,7 @@
 {
     const myArray1 = [1, 8];
     const myArray2 = [22, 4];
-    let joinedArray = [...myArray1, ...myArray2]; // We may probably use concat for this too, concat should probably be faster
-    console.log(joinedArray);
+    let joinedArray;
 }
 
 /* TASK NR. 23 END */
@@ -388,10 +357,7 @@
 
 {
     const myArray = [1, 8, 14, 15, 99, 54, 86];
-    let result = myArray.filter((value, index, number) => {
-        return index < 1 || index > 3;
-    })
-    console.log(result);
+    let result;
 }
 
 /* TASK NR. 24 END */
@@ -404,13 +370,9 @@
  */
 
 {
-    let date = new Date()
-    // Getting UTC date
-    let year = date.getUTCFullYear();
-    let month = date.getUTCMonth() + 1; // January is 0 and December is 11 by default, so we add 1 to make the value "human-readable"
-    let day = date.getUTCDate();
-
-    console.log(year, month, day);
+    let year;
+    let month;
+    let day;
 }
 
 /* TASK NR. 25 END */
@@ -423,8 +385,7 @@
  */
 
 {
-    let randNum = Math.random(); // As far as I know, Math.random() will never return 0 or 1 exactly, it will return numbers in between only.
-    console.log(randNum);
+    let randNum;
 }
 
 /* TASK NR. 26 END */
@@ -439,8 +400,7 @@
 
 {
     const user = { firstName: 'John', lastName: 'Doe' };
-    let fName = user.firstName;
-    console.log(fName);
+    let fName;
 }
 
 /* TASK NR. 27 END */
@@ -456,13 +416,8 @@
 {
     const user = {
         firstName: 'John',
-        lastName: 'Doe',
-        getFullName() {
-            return `${this.firstName} ${this.lastName}`;
-        }
+        lastName: 'Doe'
     };
-
-    console.log(user.getFullName());
 }
 
 /* TASK NR. 28 END */
@@ -480,13 +435,6 @@
         firstName: 'John',
         lastName: 'Doe',
     };
-
-    delete user.lastName;
-
-    // The alternative may be:
-    // Reflect.deleteProperty(user, 'lastName');
-
-    console.log(user);
 }
 
 /* TASK NR. 29 END */
@@ -505,8 +453,7 @@
         lastName: 'Doe',
     };
 
-    let result = user.hasOwnProperty('age');
-    console.log(result);
+    let result;
 }
 
 /* TASK NR. 30 END */
@@ -525,12 +472,7 @@
         lastName: 'Doe',
     };
 
-    let copiedUser1 = { ...user };
-    let copiedUser2 = Object.assign({}, user);
-
-    user.anyNewProperty = 'any new value'; // A value to test on - changing user should not affect copiedUser1 and copiedUser2
-
-    console.log(user, copiedUser1, copiedUser2);
+    let copiedUser;
 }
 
 /* TASK NR. 31 END */
@@ -545,10 +487,7 @@
 
 {
     const numbers = [1, 4, 10, 7, 8, 4, 6, 4];
-    let filteredNumbers = numbers.filter((value) => {
-        return value !== 4;
-    })
-    console.log(filteredNumbers);
+    let filteredNumbers;
 }
 
 /* TASK NR. 32 END */
@@ -563,10 +502,7 @@
 
 {
     const users = [{ name: 'John' }, { name: 'Sam' }, { name: 'Mark' }];
-    let sam = users.find((value, index, obj) => {
-        return value.name === 'Sam';
-    });
-    console.log(sam);
+    let sam;
 }
 
 /* TASK NR. 33 END */
@@ -582,10 +518,6 @@
 {
     const users = [{ name: 'John' }, { name: 'Sam' }, { name: 'Mark' }];
     let names = [];
-    users.forEach((value, index, array) => {
-        names.push(value.name);
-    });
-    console.log(names);
 }
 
 /* TASK NR. 34 END */
@@ -600,10 +532,7 @@
 
 {
     const numbers = [1, 4, 10, 24, 17, 5];
-    let indexOf17 = numbers.findIndex((value, index, obj) => {
-        return value === 17;
-    });
-    console.log(indexOf17);
+    let indexOf17;
 }
 
 /* TASK NR. 35 END */
@@ -620,9 +549,8 @@
 
 {
     const numbers = [1, 4, 10, 24, 17, 5];
-    let isNumbersIncludes10 = numbers.includes(10);
-    let isNumbersIncludes99 = numbers.includes(99);
-    console.log(isNumbersIncludes10, isNumbersIncludes99);
+    let isNumbersIncludes10;
+    let isNumbersIncludes99;
 }
 
 /* TASK NR. 36 END */
@@ -637,10 +565,7 @@
 
 {
     const names = ['John', 'Lisa', 'Bernard'];
-    let mappedNames = names.map((value, index, array) => {
-        return value + '1';
-    });
-    console.log(mappedNames);
+    let mappedNames;
 }
 
 /* TASK NR. 37 END */
@@ -655,8 +580,7 @@
 
 {
     const numbers = [1, 7, 5, 10];
-    let reversedNumbers = numbers.reverse();
-    console.log(reversedNumbers);
+    let reversedNumbers;
 }
 
 /* TASK NR. 38 END */
@@ -671,8 +595,7 @@
 
 {
     const months = ['March', 'Jan', 'Feb', 'Dec'];
-    let sortedMonths = months.sort(); // sorts in ascending, ASCII character order
-    console.log(sortedMonths);
+    let sortedMonths;
 }
 
 /* TASK NR. 39 END */
@@ -685,27 +608,16 @@
  */
 
 {
-    let john = {
+    var john = {
         name: 'John Doe',
         balance: 1500,
 
-        sleep: ms => {
-            console.log(`Sleeping for ${ms} milliseconds...`);
-            return new Promise(resolve => setTimeout(resolve, ms));
-        },
+        deduct: function (amount) {
+            this.balance = this.balance - amount;
 
-        deduct: function(amount) {
-            return this.sleep(2000).then(
-                function() {
-                    this.balance = this.balance - amount;
-                    return`${this.name} has a balance of ${this.balance}`;
-                }.bind(this)
-            )
+            return this.name + ' has a balance of ' + this.balance;
         }
     };
-    john.deduct(10).then(data => {
-        console.log(data);
-    });
 }
 
 /* TASK NR. 40 END */
@@ -728,28 +640,10 @@
         firstName: 'David',
         lastName: 'Ray',
         age: 24,
-        weight: 80,
-
-        getFullName() { // I'm not sure if that's the expected way of adding the method. Either way, I add getBirthYear by using another way.
-            return `${this.firstName} ${this.lastName}`;
-        }
+        weight: 80
     };
 
-    // 2. Add method "getBirthYear" into "person" object, which returns year of birth of "person" according to "age" property
-    person.getBirthYear = function () {
-        return new Date().getUTCFullYear() - this.age;
-    };
-
-    // 1. Get "person" object properties length and assign this value to "objectPropsLength"
-    const personNames = Object.getOwnPropertyNames(person);
-    let objectPropsLength = personNames.filter((value, index, array) => {
-        return !(Object.getOwnPropertyDescriptor(person, value).value instanceof Function);
-    });
-
-    // 2. Remove "weight" property from "person" object
-    Reflect.deleteProperty(person, 'weight');
-
-    console.log(objectPropsLength, person.getFullName(), person.getBirthYear(), person);
+    let objectPropsLength;
 }
 
 /* TASK NR. 41 END */
@@ -764,15 +658,8 @@
  */
 
 {
-    function sleep (ms) {
-        console.log(`Sleeping for ${ms} milliseconds...`);
-        return new Promise(resolve => setTimeout(resolve, ms));
-    }
+    function job() {
 
-    const job = () => {
-        return sleep(4000).then(
-            data => console.log('Hello World')
-        );
     }
 
     job();
